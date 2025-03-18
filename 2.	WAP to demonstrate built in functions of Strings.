@@ -1,0 +1,7 @@
+s = input("Enter a string: ")
+print("Uppercase:", s.upper())
+print("Lowercase:", s.lower())
+print("Title Case:", s.title())
+print("Length of String:", len(s))
+print("Replacing spaces with '-':", s.replace(" ", "-"))
+print("Is the string alphanumeric?", s.isalnum())
