@@ -1,0 +1,4 @@
+s = input("Enter a string: ").lower()
+vowels = "aeiou"
+vowel_count = {v: s.count(v) for v in vowels if v in s}
+print("Vowel frequencies:", vowel_count)
