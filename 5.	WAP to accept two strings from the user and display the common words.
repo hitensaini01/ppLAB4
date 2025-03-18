@@ -1,0 +1,4 @@
+s1 = input("Enter first string: ")
+s2 = input("Enter second string: ")
+common_words = set(s1.split()) & set(s2.split())
+print("Common words:", " ".join(common_words) if common_words else "No common words found.")
