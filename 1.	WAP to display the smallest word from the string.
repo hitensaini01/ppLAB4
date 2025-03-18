@@ -1,0 +1,4 @@
+s = input("Enter a string: ")
+words = s.split()
+smallest_word = min(words, key=len)
+print("The smallest word is:", smallest_word)
